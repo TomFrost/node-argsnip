@@ -2,7 +2,7 @@
   "author": "Tom Frost <tom@frosteddesign.com>",
   "name": "argsnip",
   "description": "Snips arguments off of callback functions.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/TomFrost/node-argsnip",
   "repository": {
     "type": "git",
