@@ -1,6 +1,8 @@
 # ArgSnip
 Snips arguments off of callback functions, for simpler code and cleaner APIs.
 
+[![Build Status](https://secure.travis-ci.org/TomFrost/node-argsnip.png?branch=master)](http://travis-ci.org/TomFrost/node-argsnip)
+
 ## Installation
 In your project folder, type:
 
