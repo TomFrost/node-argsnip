@@ -60,4 +60,5 @@ all arguments after the start index.
 Attempt is distributed under the MIT license.
 
 ## Credits
-ArgSnip was created by Tom Frost in 2012.
+ArgSnip was created by Tom Frost in 2012.  Because screw writing callback
+wrappers.
