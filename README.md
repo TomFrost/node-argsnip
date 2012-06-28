@@ -56,6 +56,19 @@ all arguments after the start index.
 
 - **callback:** The function to call with reduced arguments.
 
+### Returns
+Your callback function.  But when it's called, only the specified subset of
+arguments will be passed into it.  The 'this' context will not be affected.
+Any arguments argSnip expects, but doesn't see at call time, will be passed as
+undefined.
+
+**Example:**
+
+	var cb = argSnip([0, 9, 1], function(a, b, c) {
+		// a is 0, b is undefined, c is 1.
+	});
+	cb(0, 1, 2);
+
 ## License
 ArgSnip is distributed under the MIT license.
 

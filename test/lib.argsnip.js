@@ -43,4 +43,14 @@ describe('argSnip', function() {
 		});
 		cb(1, 2, 3, 4);
 	});
+	it('should set an argument to undefined when not found', function(done) {
+		var cb = argSnip([0, 9, 1], function(a, b, c) {
+			arguments.length.should.eql(3);
+			a.should.eql(1);
+			should.not.exist(b);
+			c.should.eql(2);
+			done();
+		});
+		cb(1, 2, 3);
+	});
 });
