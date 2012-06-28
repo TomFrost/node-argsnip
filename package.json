@@ -1,0 +1,23 @@
+{
+  "author": "Tom Frost <tom@frosteddesign.com>",
+  "name": "argsnip",
+  "description": "Snips arguments off of callback functions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/TomFrost/node-argsnip",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TomFrost/node-argsnip.git"
+  },
+  "main": "lib/argsnip.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": ">= 1.1.0",
+	"should": ">= 0.6.3"
+  }
+}
