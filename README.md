@@ -44,20 +44,20 @@ ArgSnip will save you from using countless wrapper functions to sanitize your
 callback arguments by letting you send just a slice or cheery-pick of the
 original arguments to the specified function.  Here's what it looks like:
 
-**attempt(_[start]_, args, callback)**
+**argSnip(_[start]_, args, callback)**
 
 - **start:** An optional index at which to start grabbing arguments.  If
 omitted, it's 0.
 
 - **args:** The number of arguments from the 'start' index that should be
-sent to the callback, OR an array specifying the index of each arguments to be
+sent to the callback, OR an array specifying the index of each argument to be
 sent to the callback, in the order they should be arranged in.  Null to take
 all arguments after the start index.
 
 - **callback:** The function to call with reduced arguments.
 
 ## License
-Attempt is distributed under the MIT license.
+ArgSnip is distributed under the MIT license.
 
 ## Credits
 ArgSnip was created by Tom Frost in 2012.  Because screw writing callback
